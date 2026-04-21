@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        User u = new User("Mohamed" , "12312345" , ERole.ENSEIGANT);
+        Animal mammifere = new Mammifere("test", 1  , 1.2);
 
-        System.out.println(u.getName());
-        System.out.println(u.getCin());
-        System.out.println(u.getRole());
+        System.out.println(mammifere.getType());
+
+        Animal oiseau = new Oiseau("oiseau001" , 1 , 1.2);
 
     }
 }
